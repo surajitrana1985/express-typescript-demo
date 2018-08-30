@@ -1,0 +1,42 @@
+{
+  "name": "express-typescript-demo",
+  "version": "1.0.0",
+  "description": "This project illustrates how to use expressJS in typescript",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc -w",
+    "server": "nodemon ./build/index.js",
+    "start": "tsc && node ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajitrana1985/express-typescript-demo.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "typescript"
+  ],
+  "author": "surajit.rana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajitrana1985/express-typescript-demo/issues"
+  },
+  "homepage": "https://github.com/surajitrana1985/express-typescript-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "mongoose": "^5.2.10",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.2.9",
+    "@types/node": "^10.9.3",
+    "cors": "^2.8.4",
+    "typescript": "^3.0.3"
+  }
+}
